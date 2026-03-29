@@ -1,0 +1,45 @@
+{
+  "hero": {
+    "title": "Welcome to our site",
+    "subtitle": "Enjoy your stay",
+    "cta": "Contact Us",
+    "name": "Airbnb Template"
+  },
+  "footer": {
+    "rights": "All rights reserved"
+  },
+  "nav": {
+    "home": "Home",
+    "contact": "Contact",
+    "back": "Back"
+  },
+  "buttons": [
+    { "label": "Guest Information", "icon": "ℹ️", "href": "/infos" },
+    { "label": "Wi-Fi", "icon": "🛜", "href": "/wifi" },
+    { "label": "Useful Numbers", "icon": "📞", "href": "/numbers" },
+    { "label": "Around Me", "icon": "📍", "href": "https://maps.google.com/" },
+    { "label": "Book Again", "icon": "🏡", "href": "https://airbnb.com/" }
+  ],
+  "infos": {
+    "title": "Arrival Information",
+    "welcome": {
+      "title": "Welcome! 🏡",
+      "message": "We are delighted to welcome you. Don't hesitate to contact us if you need anything during your stay."
+    },
+    "schedule": {
+      "title": "Schedule",
+      "checkin": { "label": "Check-in", "value": "From 3:00 PM", "icon": "🔑" },
+      "checkout": { "label": "Check-out", "value": "Before 11:00 AM", "icon": "🧳" }
+    },
+  "rules": {
+      "title": "House Rules",
+      "items": [
+        { "icon": "🚭", "text": "No smoking anywhere on the property" },
+        { "icon": "🐾", "text": "No pets allowed" },
+        { "icon": "🔇", "text": "Quiet hours after 10:00 PM" },
+        { "icon": "🗑️", "text": "Please sort your waste" },
+        { "icon": "🔒", "text": "Lock the door when leaving" }
+      ]
+    }
+  }
+}

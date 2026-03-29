@@ -1,0 +1,58 @@
+{
+  "hero": {
+    "title": "Bienvenue chez vous",
+    "subtitle": "Profitez de votre séjour",
+    "cta": "Nous contacter",
+    "name": "Airbnb Template"
+  },
+  "footer": {
+    "rights": "Tous droits réservés"
+  },
+  "nav": {
+    "home": "Accueil",
+    "contact": "Contact",
+    "info": "Infos d'accueil",
+    "wifi": "Wi-Fi",
+    "maps": "Autour de moi",
+    "numbers": "Numéros utiles",
+    "airbnb": "N'hésitez pas à réserver de nouveau chez nous !",
+    "back": "Retour"
+  },
+  "buttons": [
+    { "label": "Infos d'accueil", "icon": "ℹ️", "href": "/infos" },
+    { "label": "Wi-Fi", "icon": "🛜", "href": "/wifi" },
+    { "label": "Numéros utiles", "icon": "📞", "href": "/numbers" },
+    { "label": "Autour de moi", "icon": "📍", "href": "https://maps.google.com/" },
+    { "label": "N'hésitez pas à réserver de nouveau chez nous !", "icon": "🏡", "href": "https://airbnb.com/" }
+  ],
+  "infos": {
+    "title": "Informations d'arrivée",
+    "welcome": {
+      "title": "Bienvenue ! 🏡",
+      "message": "Nous sommes ravis de vous accueillir. N'hésitez pas à nous contacter si vous avez besoin de quoi que ce soit pendant votre séjour."
+    },
+    "schedule": {
+      "title": "Horaires",
+      "checkin": {
+        "label": "Arrivée",
+        "value": "À partir de 15h00",
+        "icon": "🔑"
+      },
+      "checkout": {
+        "label": "Départ",
+        "value": "Avant 11h00",
+        "icon": "🧳"
+      }
+    },
+  "rules": {
+      "title": "Règlement de la maison",
+      "items": [
+        { "icon": "🚭", "text": "Non-fumeur dans tout le logement" },
+        { "icon": "🐾", "text": "Animaux non acceptés" },
+        { "icon": "🔇", "text": "Silence après 22h00" },
+        { "icon": "🗑️", "text": "Merci de trier les déchets" },
+        { "icon": "🔒", "text": "Fermez la porte à clé en sortant" }
+      ]
+    }
+  }
+}
