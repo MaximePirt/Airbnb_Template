@@ -118,7 +118,7 @@ function Infos() {
 
 	return (
 		<main
-			style={{ backgroundColor: 'var(--bg-main)' }}
+			style={{ backgroundColor: 'var(--bg-secondary)' }}
 			className="min-h-screen bg-gray-50 px-4 py-10"
 		>
 			<div className="w-full max-w-sm mx-auto flex flex-col gap-4">
