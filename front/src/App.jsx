@@ -5,7 +5,7 @@ import Footer from './components/layout/Footer'
 import Home from './pages/Home'
 import Contact from './pages/Contact'
 import Infos from './pages/Infos'
-
+import Wifi from './pages/Wifi'
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/infos" element={<Infos />} />
+        <Route path="/wifi" element={<Wifi />} />
       </Routes>
       <Footer />
     </BrowserRouter>

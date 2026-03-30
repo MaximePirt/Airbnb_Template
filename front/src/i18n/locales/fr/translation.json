@@ -16,7 +16,8 @@
     "maps": "Autour de moi",
     "numbers": "Numéros utiles",
     "airbnb": "N'hésitez pas à réserver de nouveau chez nous !",
-    "back": "Retour"
+    "back": "Retour",
+    "copy": "Copier"
   },
   "buttons": [
     { "label": "Infos d'accueil", "icon": "ℹ️", "href": "/infos" },
@@ -44,15 +45,28 @@
         "icon": "🧳"
       }
     },
-  "rules": {
-      "title": "Règlement de la maison",
-      "items": [
-        { "icon": "🚭", "text": "Non-fumeur dans tout le logement" },
-        { "icon": "🐾", "text": "Animaux non acceptés" },
-        { "icon": "🔇", "text": "Silence après 22h00" },
-        { "icon": "🗑️", "text": "Merci de trier les déchets" },
-        { "icon": "🔒", "text": "Fermez la porte à clé en sortant" }
-      ]
-    }
+    "rules": {
+        "title": "Règlement de la maison",
+        "items": [
+          { "icon": "🚭", "text": "Non-fumeur dans tout le logement" },
+          { "icon": "🐾", "text": "Animaux non acceptés" },
+          { "icon": "🔇", "text": "Silence après 22h00" },
+          { "icon": "🗑️", "text": "Merci de trier les déchets" },
+          { "icon": "🔒", "text": "Fermez la porte à clé en sortant" }
+        ]
+      }
+  },
+  "wifi": {
+    "title": "Informations Wi-Fi",
+    "description": "Voici les informations pour vous connecter à notre réseau Wi-Fi",
+    "setups": [
+      "Ouvrez les paramètres Wi-Fi de votre appareil 🛜",
+      "Sélectionnez le réseau indiqué ci-dessous",
+      "Entrez le mot de passe fourni"
+    ],
+    "network": { "label": "Réseau", "value": "MonWiFi" },
+    "password": { "label": "Mot de passe", "value": "MonMotDePasse" },
+    "qr": "Scannez ce QR code pour vous connecter automatiquement",
+    "qrAlt": "QR code pour se connecter au Wi-Fi"
   }
 }

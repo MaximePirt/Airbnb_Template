@@ -11,7 +11,8 @@
   "nav": {
     "home": "Home",
     "contact": "Contact",
-    "back": "Back"
+    "back": "Back",
+    "copy": "Copy"
   },
   "buttons": [
     { "label": "Guest Information", "icon": "ℹ️", "href": "/infos" },
@@ -31,15 +32,28 @@
       "checkin": { "label": "Check-in", "value": "From 3:00 PM", "icon": "🔑" },
       "checkout": { "label": "Check-out", "value": "Before 11:00 AM", "icon": "🧳" }
     },
-  "rules": {
-      "title": "House Rules",
-      "items": [
-        { "icon": "🚭", "text": "No smoking anywhere on the property" },
-        { "icon": "🐾", "text": "No pets allowed" },
-        { "icon": "🔇", "text": "Quiet hours after 10:00 PM" },
-        { "icon": "🗑️", "text": "Please sort your waste" },
-        { "icon": "🔒", "text": "Lock the door when leaving" }
-      ]
-    }
+    "rules": {
+        "title": "House Rules",
+        "items": [
+          { "icon": "🚭", "text": "No smoking anywhere on the property" },
+          { "icon": "🐾", "text": "No pets allowed" },
+          { "icon": "🔇", "text": "Quiet hours after 10:00 PM" },
+          { "icon": "🗑️", "text": "Please sort your waste" },
+          { "icon": "🔒", "text": "Lock the door when leaving" }
+        ]
+      }
+  },
+  "wifi": {
+    "title": "Wi-Fi Information",
+    "description": "Here is the information to connect to our Wi-Fi network",
+    "setups": [
+      "Open your device's Wi-Fi settings 🛜",
+      "Select the network listed below",
+      "Enter the provided password"
+    ],
+    "network": { "label": "Network", "value": "MonWiFi" },
+    "password": { "label": "Password", "value": "MonMotDePasse" },
+    "qr": "Scan this QR code to connect automatically",
+    "qrAlt": "QR code to connect to Wi-Fi"
   }
 }
