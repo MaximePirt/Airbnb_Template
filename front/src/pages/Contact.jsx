@@ -7,6 +7,7 @@ function Home() {
 	<main>
 		<h1>{t('hero.title')}</h1>
 		<p>{t('hero.subtitle')}</p>
+		fejifiejife
 	</main>
 	)
 }
